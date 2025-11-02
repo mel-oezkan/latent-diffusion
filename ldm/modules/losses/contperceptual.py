@@ -7,6 +7,8 @@ from taming.modules.losses.vqperceptual import *  # TODO: taming dependency yes/
 class LPIPSWithDiscriminator(nn.Module):
     """Loss used with basic VAE"""
 
+
+
     def __init__(
         self,
         disc_start,
